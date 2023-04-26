@@ -1,31 +1,31 @@
-import { HomeIcon } from "@mui/icons-material/Home"
-import { TravelExploreIcon } from "@mui/icons-material/TravelExplore"
-import { BarChartIcon } from "@mui/icons-material/BarChart"
-import { SettingsIcon } from "@mui/icons-material/Settings"
+import { Home, TravelExplore, BarChart, Settings } from "@mui/icons-material"
+// import TravelExplore from "@mui/icons-material/TravelExplore/"
+// import BarChart from "@mui/icons-material/BarChart/"
+// import Settings from "@mui/icons-material/Settings/"
 
 export const navData = [
   {
     id: 0,
-    icon: <HomeIcon />,
+    icon: <Home />,
     text: 'Home',
-    linke: '/'
+    link: '/'
   },
   {
     id: 1,
-    icon: <TravelExploreIcon />,
+    icon: <TravelExplore />,
     text: 'Explore',
-    linke: '/explore'
+    link: '/explore'
   },
   {
     id: 2,
-    icon: <BarChartIcon />,
+    icon: <BarChart />,
     text: 'Statistics',
-    linke: '/statistics'
+    link: '/statistics'
   },
   {
     id: 3,
-    icon: <SettingsIcon />,
+    icon: <Settings />,
     text: 'Settings',
-    linke: '/settings'
+    link: '/settings'
   }
 ]

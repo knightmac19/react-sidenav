@@ -14,7 +14,7 @@
 
 .sideItem {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 10px 20px;
   cursor: pointer;
   color: #B2BAC2;
